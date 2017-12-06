@@ -1,0 +1,291 @@
+body { 
+    margin: 0px; 
+	padding: 0px; 
+	line-height: 14px;
+	color: #000;
+	text-align: center; 
+}
+
+body { 
+	color: #444; 
+	background-color: #dfd5cd;
+	font-size: 11px; 
+	line-height: 14px;
+	text-align: left;
+    margin: 0px; 
+	padding: 0px;
+	}
+	
+header {
+	width: 100%;
+ 	height: 300px;
+ 	background-image: url(images/stones.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border: 0px;    
+	margin: 0px 0px 0px 0px; 
+	padding: 224px 0px 0px 0px;
+	}
+	
+header h1 {
+ 	width: 600px;
+	color: #fff;
+	font-size: 24px; 
+	line-height: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0px 0px 0px 10px;
+	padding: 0px 0px 0px 0px;
+	}
+	
+header h2 {
+ 	width: 600px;
+	color: #fff;
+	font-size: 11px; 
+	line-height: 16px;
+	font-weight: normal;
+	padding: 0px 0px 0px 3px;
+	text-transform: uppercase;
+	margin: 0px 0px 0px 10px;
+	padding: 0px 0px 10px 4px;
+	}
+	
+.summary {
+ 	width: 100%;
+ 	height: 100px;
+	background-color: #e0ef8c;
+	margin: 0;
+	padding: 10px 10px 10px 10px;
+	}
+	
+.preamble {
+ 	width: 100%;
+ 	height: 150px;
+	background-color: #fff;
+	margin: 0;
+	padding: 10px 10px 20px 10px;
+	}	
+	
+p {
+	font-size: 17px; 
+	line-height: 17px;
+	text-align: center; 
+	margin: 0px; 
+	padding: 0px;
+	}
+	
+h1, h2, h3 {
+	font-size: 11px; 
+	line-height: 14px;
+	font-weight: bold; 
+	text-align: left; 
+	margin: 0px; 
+	padding: 0px;
+	}
+	
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #6faf30;
+	}
+a:visited, 
+a:visited:hover { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #7fc937;
+	}
+a:hover, 
+a:active { 
+	text-decoration: underline; 
+	color: #4f711f;
+	}
+abbr { 
+	font-weight: normal; 
+	font-style: normal;
+	border: 0;
+	}
+
+.page-wrapper { 
+	width: 100%; 
+	margin: 0px auto 0px auto;
+	padding: 0px 0px 0px 0px;
+	}
+
+.intro {
+ 	width: 100%;
+	margin: 0px 0px 0px 0px; 
+	padding: 0px 0px 0px 0px;
+	}
+	
+.supporting {
+ 	width: 100%;
+	margin: 0;
+	padding: 0;
+	}
+	
+.sidebar {
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	}
+
+.explanation,
+.participation,
+.benefits,
+.requirements {
+ 	width: 100%;
+	background-color: #fff;	
+	margin: 0;
+	padding: 0px 10px 0px 10px;
+	}
+
+.explanation {
+	height: 150px;
+	background-image: url(images/zen_twilight.jpg);
+}
+
+.participation {
+	height: 200px;
+}
+	
+.benefits {
+	height: 100px;
+}
+	
+.requirements {
+	height: 300px; 
+}
+	
+footer {
+ 	width: 100%;
+ 	height: 70px;
+	background-color: #709107;	
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	}
+	
+footer a {
+	
+}	
+	
+.explanation p {
+	padding-bottom: 8px;
+	text-align: center;
+	color: #cbe5f1;
+}
+
+.participation p,
+.benefits p,
+.requirements p,
+.preamble p {
+	padding-bottom: 8px;
+	text-align: justify;
+	}
+
+.preamble h3,
+.supporting h3 {
+	color: #709107;
+	font-size: 11px; 
+	line-height: 16px;
+	text-transform: uppercase;
+	margin: -10px -10px 4px -10px;
+	padding: 4px 4px 4px 10px;
+	text-align: center;
+	}
+	
+.summary p:first-child { 
+	color: #fff;
+	font-size: 10px;
+	line-height: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+	margin: 0px 50px 0px 0px;
+	padding: 0px 0px 10px 0px;
+	}
+	
+.summary p:last-child { 
+	color: #fff;
+	font-size: 10px;
+	line-height: 14px;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: left; 
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	}
+	
+.sidebar ul {
+	margin: 5px 5px 0px 5px; 
+	padding: 0px 0px 0px 0px;
+	}
+	
+.wrapper {
+	display: flex;
+	justify-content: space-around;
+	background-color: #709107;
+}
+
+.sidebar li {
+	display: block;
+	list-style-type: none;
+	color: #6c9e2d;
+	background-color: #709107;
+	font-size: 11px; 
+	line-height: 14px;
+	font-weight: normal; 
+	font-style: italic;
+	font-family: Cochin, Georgia, "New Century Schoolbook", "Bitstream Vera Serif", "Times New Roman", times, serif; 
+	text-align: center; 
+	margin: 0px 0px 0px 0px; 
+	padding: 3px 5px 3px 5px;
+	}
+	
+.sidebar li a:link,
+.sidebar li a:visited, 
+.sidebar li a:visited:hover,
+.sidebar li a:hover, 
+.sidebar li a:active {
+	font-style: normal;
+	padding-right: 5px;
+	}
+	
+a.designer-name { 
+	color: #6c9e2d;
+	font-weight: normal;
+	font-style: italic;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 14px 0px 0px;
+	}
+
+.sidebar h3 {
+	color: #7fc937;
+	background-color: #709107;
+	font-size: 11px; 
+	line-height: 16px;
+	font-weight: bold; 
+	font-family: Cochin, Georgia, "New Century Schoolbook", "Bitstream Vera Serif", "Times New Roman", times, serif; 
+	text-transform: uppercase;
+	text-align: center; 
+	margin: 0px 0px 0px 0px; 
+	padding: 3px 5px 3px 5px;
+	}
+	
+.design-selection,
+#lfavorites,
+.design-archives,
+.zen-resources {
+	width: 30%;
+	background-color: #709107;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 30px 0px;
+	}
+	
+.preamble:hover {
+ 	background-image: url(leaf_09f.gif);
+	}
+	
+.zen-resources:hover {
+	background-image: url(leaf_09b.gif);
+	}
